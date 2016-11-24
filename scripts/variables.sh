@@ -15,25 +15,25 @@ clear_history_key_option="@clear-history-key"
 default_clear_history_key="M-c" # Alt-c
 
 # General options
-filename_suffix="#{session_name}-#{window_index}-#{pane_index}-%Y%m%dT%H%M%S.log"
+filename_suffix="#{session_name}-#{window_index}-#{pane_index}.log"
 
 # Logging options
 logging_path_option="@logging-path"
-default_logging_path="$HOME"
+default_logging_path="/tmp"
 
 logging_filename_option="@logging-filename"
-default_logging_filename="tmux-${filename_suffix}"
+default_logging_filename="_tmux-logging-${filename_suffix}"
 
 # Screen capture options
 screen_capture_path_option="@screen-capture-path"
-default_screen_capture_path="$HOME"
+default_screen_capture_path="/tmp"
 
 screen_capture_filename_option="@screen-capture-filename"
-default_screen_capture_filename="tmux-screen-capture-${filename_suffix}"
+default_screen_capture_filename="_tmux-screencap-${filename_suffix}"
 
 # Save complete history options
 save_complete_history_path_option="@save-complete-history-path"
-default_save_complete_history_path="$HOME"
+default_save_complete_history_path="/tmp"
 
 save_complete_history_filename_option="@save-complete-history-filename"
-default_save_complete_history_filename="tmux-history-${filename_suffix}"
+default_save_complete_history_filename="_tmux-history-${filename_suffix}"
